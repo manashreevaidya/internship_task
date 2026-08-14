@@ -2,9 +2,7 @@
 
 This repository contains the tasks completed as part of my internship assignment.
 
-## Tasks
-
-- Employee ID
+## Task 
 - Resume in Table Format
 
 ## Technologies Used
