@@ -1,0 +1,86 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background: #f5f1ed;
+    color: #3d2920;
+}
+.box {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    color: #633f2d;
+    margin-bottom: 20px;
+}
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    border-radius: 7px;
+    font-size: 14px;
+}
+input {
+    border: 1px solid #cdb9aa;
+    background: white;
+}
+button {
+    border: 0;
+    background: #633f2d;
+    color: white;
+    cursor: pointer;
+}
+.card {
+    display: none;
+    margin-top: 28px;
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+    background: #fffaf5;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px #633f2d33;
+}
+.card-head {
+    padding: 18px;
+    background: #633f2d;
+    color: #f8e8d8;
+    display: flex;
+    justify-content: space-between;
+}
+.profile {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 22px;
+}
+.avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #eee6e0;
+    display: grid;
+    place-items: center;
+    font-size: 28px;
+}
+.profile h2 {
+    margin: 0 0 6px;
+    color: #633f2d;
+}
+.profile p {
+    margin: 4px 0;
+    color: #765b4b;
+}
+.id {
+    padding: 13px 22px;
+    background: #e7af7f;
+    color: #6d422f;
+}
+@media (max-width: 450px) {
+    body { padding: 20px 12px; }
+    .card-head {
+        font-size: 13px;
+    }
+}

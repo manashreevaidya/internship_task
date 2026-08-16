@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee ID Generator</title>
+    <link rel="stylesheet" href="id.css">
+</head>
+
+<body>
+
+<div class="box">
+    <h1>Employee ID Generator</h1>
+
+    <input id="name" placeholder="Employee Name">
+    <input id="role" placeholder="Designation">
+    <input id="dept" placeholder="Department">
+
+    <button onclick="generate()">Generate ID Card</button>
+
+    <div class="card" id="card">
+        <div class="card-head">
+            <span>COMPANY</span>
+            <b>EMPLOYEE ID</b>
+        </div>
+
+        <div class="profile">
+            <div class="avatar">👤</div>
+            <div>
+                <h2 id="cname"></h2>
+                <p id="crole"></p>
+                <p id="cdept"></p>
+            </div>
+        </div>
+
+        <div class="id">ID: <b id="cid"></b></div>
+    </div>
+</div>
+
+<script src="id.js"></script>
+</body>
+</html>
